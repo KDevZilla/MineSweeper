@@ -1,0 +1,13 @@
+D:\CODE\visual studio 2010\Projects\MineSweeper\MineSweeper\bin\Debug\MineSweeper.exe.config
+D:\CODE\visual studio 2010\Projects\MineSweeper\MineSweeper\bin\Debug\MineSweeper.exe
+D:\CODE\visual studio 2010\Projects\MineSweeper\MineSweeper\bin\Debug\MineSweeper.pdb
+D:\CODE\visual studio 2010\Projects\MineSweeper\MineSweeper\obj\Debug\MineSweeper.csprojAssemblyReference.cache
+D:\CODE\visual studio 2010\Projects\MineSweeper\MineSweeper\obj\Debug\MineSweeper.Form1.resources
+D:\CODE\visual studio 2010\Projects\MineSweeper\MineSweeper\obj\Debug\MineSweeper.Properties.Resources.resources
+D:\CODE\visual studio 2010\Projects\MineSweeper\MineSweeper\obj\Debug\MineSweeper.csproj.GenerateResource.cache
+D:\CODE\visual studio 2010\Projects\MineSweeper\MineSweeper\obj\Debug\MineSweeper.csproj.CoreCompileInputs.cache
+D:\CODE\visual studio 2010\Projects\MineSweeper\MineSweeper\obj\Debug\MineSweeper.exe
+D:\CODE\visual studio 2010\Projects\MineSweeper\MineSweeper\obj\Debug\MineSweeper.pdb
+D:\CODE\visual studio 2010\Projects\MineSweeper\MineSweeper\obj\Debug\MineSweeper.FormCustomField.resources
+D:\CODE\visual studio 2010\Projects\MineSweeper\MineSweeper\obj\Debug\MineSweeper.FormBestTime.resources
+D:\CODE\visual studio 2010\Projects\MineSweeper\MineSweeper\obj\Debug\MineSweeper.FormEnterNewTimeRecord.resources
