@@ -11,3 +11,4 @@ D:\CODE\visual studio 2010\Projects\MineSweeper\MineSweeper\obj\Debug\MineSweepe
 D:\CODE\visual studio 2010\Projects\MineSweeper\MineSweeper\obj\Debug\MineSweeper.FormCustomField.resources
 D:\CODE\visual studio 2010\Projects\MineSweeper\MineSweeper\obj\Debug\MineSweeper.FormBestTime.resources
 D:\CODE\visual studio 2010\Projects\MineSweeper\MineSweeper\obj\Debug\MineSweeper.FormEnterNewTimeRecord.resources
+D:\CODE\visual studio 2010\Projects\MineSweeper\MineSweeper\obj\Debug\MineSweeper.FormAbout.resources

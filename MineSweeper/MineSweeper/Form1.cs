@@ -612,5 +612,12 @@ namespace MineSweeper
             f.score = this.score;
             f.ShowDialog();
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormAbout f = new FormAbout();
+            f.StartPosition = FormStartPosition.CenterParent;
+            f.ShowDialog();
+        }
     }
 }
