@@ -14,5 +14,5 @@ It is a MineSweeper written in C# Windows Form Application.
 5. In order to win the game, you need to open all the cells that are not mine.
 
 
-# How to setup project
+# How to setup a project
 1. Just download a project, it is just a small program written in C# Windows Form.
