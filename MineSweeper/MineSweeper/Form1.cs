@@ -282,27 +282,7 @@ namespace MineSweeper
             get { return _IsFlagCell; }
         }
 
-        /*
-        private void Cell_Click(object sender, EventArgs e)
-        {
-            // throw new NotImplementedException();
-            
-            String ID = "";
-            Label b = (Label)sender;
-            ID = b.Tag.ToString();
-            List<Position> listPo = new List<Position>();
-         
-            int Row = ID.Substring(0, 2).ToInt();
-            int Col = ID.Substring(2, 2).ToInt();
-            if(IsFlagCell[Row, Col])
-            {
-                return;
-            }
-
-            UserClick(MineSweep , Row, Col);
-
-        }
-        */
+      
         private void Cell_MouseDown(object sender, MouseEventArgs e)
         {
             //throw new NotImplementedException();
