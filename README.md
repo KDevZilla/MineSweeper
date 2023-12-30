@@ -1,9 +1,9 @@
 # MineSweeper
 It is a MineSweeper written in C# Windows Form Application.
 
-![Image Image](https://raw.githubusercontent.com/KDevZilla/Resource/main/MineSweeper_Screen_01.png)
+![Image Image](https://github.com/KDevZilla/ImageUpload/blob/main/MineSweeper/MineSweeper_01.png)
 
-![Image Image](https://raw.githubusercontent.com/KDevZilla/Resource/main/MineSweeper_Animation_01.gif)
+
 
 
 # How to play 
@@ -14,5 +14,5 @@ It is a MineSweeper written in C# Windows Form Application.
 5. In order to win the game, you need to open all the cells that are not mine.
 
 
-# How to setup a project
+# How to set up a project
 1. Just download a project, it is just a small program written in C# Windows Form.
