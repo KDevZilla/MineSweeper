@@ -25,7 +25,9 @@ namespace MineSweeper
         public Score score;
         private void FormBestTime_Load(object sender, EventArgs e)
         {
-            if(score == null)
+            this.Icon = Resource1.mine2;
+
+            if (score == null)
             {
                 throw new Exception("Please set a score property");
             }

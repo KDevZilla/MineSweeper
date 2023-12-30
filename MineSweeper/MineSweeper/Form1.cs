@@ -282,7 +282,27 @@ namespace MineSweeper
             get { return _IsFlagCell; }
         }
 
-      
+        /*
+        private void Cell_Click(object sender, EventArgs e)
+        {
+            // throw new NotImplementedException();
+            
+            String ID = "";
+            Label b = (Label)sender;
+            ID = b.Tag.ToString();
+            List<Position> listPo = new List<Position>();
+         
+            int Row = ID.Substring(0, 2).ToInt();
+            int Col = ID.Substring(2, 2).ToInt();
+            if(IsFlagCell[Row, Col])
+            {
+                return;
+            }
+
+            UserClick(MineSweep , Row, Col);
+
+        }
+        */
         private void Cell_MouseDown(object sender, MouseEventArgs e)
         {
             //throw new NotImplementedException();
@@ -446,6 +466,10 @@ namespace MineSweeper
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+            //Credit icon designer
+            //http://www.rw-designer.com/icon-detail/3084
+            this.Icon = Resource1.mine2;
+
             Color BoardBackColor = Color.FromArgb(192, 192, 192);
             this.pnlMain.BackColor = BoardBackColor;
             this.pnlScore.BackColor = BoardBackColor;
@@ -480,7 +504,7 @@ namespace MineSweeper
             //   MineSweep = new Game();
             NumberofFlag = 0;
             MineSweep.listMinePositionForDebugPurpose = new List<Position>();
-            MineSweep.listMinePositionForDebugPurpose.Add(new Position(1, 1));
+         //   MineSweep.listMinePositionForDebugPurpose.Add(new Position(1, 1));
             MineSweep.New(PostionThatMineMustNotExist);
 
             _IsFlagCell = new Boolean[MineSweep.NoofRow, MineSweep.NoofColumn];

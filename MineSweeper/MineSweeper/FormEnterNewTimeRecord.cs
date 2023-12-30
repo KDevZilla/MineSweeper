@@ -21,6 +21,8 @@ namespace MineSweeper
         public string NewName = "";
         private void FormEnterNewTimeRecord_Load(object sender, EventArgs e)
         {
+            this.Icon = Resource1.mine2;
+
             this.lblMessage.Text = Message;
             this.txtName.Text = PreviousRecordName;
         }

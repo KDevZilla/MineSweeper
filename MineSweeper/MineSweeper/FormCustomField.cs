@@ -72,6 +72,8 @@ namespace MineSweeper
 
         private void frmCustomField_Load(object sender, EventArgs e)
         {
+            this.Icon = Resource1.mine2;
+
             this.txtHeight.Text = this.NoofRow.ToString();
             this.txtWidth.Text = this.NoofColumn.ToString();
             this.txtMines.Text = this.NoofMines.ToString();

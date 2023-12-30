@@ -57,8 +57,8 @@
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.pnlMain.SuspendLayout();
             this.pnlScore.SuspendLayout();
             this.pnlTime.SuspendLayout();
@@ -321,7 +321,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MineSweepter";
+            this.Text = "MineSweeper";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.pnlMain.ResumeLayout(false);
             this.pnlScore.ResumeLayout(false);

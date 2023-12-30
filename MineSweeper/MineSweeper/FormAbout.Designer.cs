@@ -65,6 +65,7 @@
             this.MaximizeBox = false;
             this.Name = "FormAbout";
             this.Text = "About";
+            this.Load += new System.EventHandler(this.FormAbout_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

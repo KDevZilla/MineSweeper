@@ -188,16 +188,10 @@ namespace MineSweeper
             SetBomb(pBoard,this.NumberofMines, this.PostionThatMineMustNotExist);
             if (PostionThatMineMustNotExist.Row == -1)
             {
-                this.board.Matrix[0, 0] = ConstCell.Bomb;
+                //this.board.Matrix[0, 0] = ConstCell.Bomb;
             }
 
             SetHasValueCell(pBoard);
-
-
-
-
-
-
             for (i = 0; i < pBoard.NoofRow; i++)
             {
                 for (j = 0; j < pBoard.NoofCol; j++)
@@ -361,9 +355,20 @@ namespace MineSweeper
 
             List<Position> listPositionBomb = GetUniqueRandomPosition(pBoard.NoofRow ,pBoard.NoofCol , NumberofBomb, positionDoesnotAllow);
             int CellValue = 0;
+            int countBomb = 0;
             for (i = 0; i < NumberofBomb; i++)
             {
                 pBoard.Matrix[listPositionBomb[i].Row, listPositionBomb[i].Col] = ConstCell.Bomb;
+            }
+            for(i=0;i<pBoard.Matrix.GetLength(0); i++)
+            {
+                for(j=0;j<pBoard.Matrix.GetLength(1); j++)
+                {
+                    if(pBoard.Matrix [i,j]== ConstCell.Bomb)
+                    {
+                        countBomb++;
+                    }
+                }
             }
             if (System.Diagnostics.Debugger.IsAttached)
             {

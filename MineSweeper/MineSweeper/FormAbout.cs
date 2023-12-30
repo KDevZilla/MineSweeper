@@ -26,5 +26,11 @@ namespace MineSweeper
         {
             System.Diagnostics.Process.Start(linkLabel1.Text);
         }
+
+        private void FormAbout_Load(object sender, EventArgs e)
+        {
+            this.Icon = Resource1.mine2;
+
+        }
     }
 }
